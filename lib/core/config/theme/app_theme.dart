@@ -7,7 +7,7 @@ class AppTheme {
       brightness: isDark ? Brightness.dark : Brightness.light,
       primary: AppColors.primary,
       onPrimary: isDark ? Colors.white : Colors.black,
-      secondary: Colors.white,
+      secondary: AppColors.secondary,
       onSecondary: isDark ? Colors.white : Colors.black,
       error: Colors.red,
       onError: Colors.white,
@@ -36,8 +36,22 @@ class AppTheme {
           color: isDark ? Colors.white : colorScheme.surface,
           fontWeight: FontWeight.bold,
         ),
-        bodyMedium: TextStyle(
+
+        headlineMedium: TextStyle(
           color: isDark ? Colors.white : colorScheme.surface,
+          fontSize: 24,
+          fontWeight: FontWeight.w600,
+        ),
+
+        bodyMedium: TextStyle(color: isDark ? Colors.white : Colors.black),
+        bodySmall: TextStyle(
+          color: isDark ? Colors.white : Colors.black,
+          fontSize: 12,
+        ),
+
+        titleMedium: TextStyle(
+          color: isDark ? colorScheme.primary : Colors.black,
+          fontWeight: FontWeight.w600,
         ),
       ),
     );

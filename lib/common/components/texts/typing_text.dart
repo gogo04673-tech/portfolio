@@ -17,7 +17,7 @@ class TypingText extends StatelessWidget {
 
             animatedTexts: [
               TypewriterAnimatedText(
-                'Frontend Developer',
+                title,
                 textStyle: TextStyle(
                   fontSize: 32,
                   color: Theme.of(context).colorScheme.primary,
