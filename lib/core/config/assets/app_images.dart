@@ -13,4 +13,6 @@ class AppImages {
   static const String coding = '$basePath/coding.png';
   static const String phone = '$basePath/phone.png';
   static const String apple = '$basePath/apple.png';
+
+  static const String spendlyProject = '$basePath/spendly.png';
 }

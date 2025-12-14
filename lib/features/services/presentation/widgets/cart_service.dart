@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:portfolio/common/components/buttons/basic_button.dart';
-import 'package:portfolio/core/config/theme/app_colors.dart';
 
 class CartService extends StatelessWidget {
   final String title;
@@ -32,7 +31,7 @@ class CartService extends StatelessWidget {
           BoxShadow(
             color: Theme.of(
               context,
-            ).colorScheme.primary.withOpacity(0.5), // softer
+            ).colorScheme.primary.withValues(alpha: 0.5), // softer
             blurRadius: 20, // makes it dispersed
             spreadRadius: 0, // avoid border effect
             offset: const Offset(0, 5), // slight downward shadow

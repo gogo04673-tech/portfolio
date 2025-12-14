@@ -21,6 +21,12 @@ dependencies:
   lottie: ^3.3.2
   shared_preferences: ^2.5.3
   animated_text_kit: ^4.3.0
+  google_fonts: ^6.3.3
+  responsive_framework: ^1.5.1
+  flutter_screenutil: ^5.9.3
+  adaptive_ui_layout: ^1.1.0
+  device_info_plus: ^12.3.0
+  go_router: ^17.0.1
 
 dev_dependencies:
   flutter_test:
