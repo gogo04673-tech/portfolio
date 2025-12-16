@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:portfolio/common/data/app_sections.dart';
 import 'package:portfolio/common/widgets/hover_text.dart';
-import 'package:portfolio/features/portfolio_view/presentation/bloc/page_cubit.dart';
+import 'package:portfolio/features/portfolio/presentation/bloc/page_cubit.dart';
 
 class TopNavigationBar extends StatelessWidget implements PreferredSizeWidget {
   final PageController pageController;

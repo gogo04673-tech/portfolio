@@ -1,0 +1,85 @@
+{
+    "@@locale": "en",
+    "language": "Language",
+    "@language": {},
+    "welcome": "Welcome",
+    "@welcome": {},
+    "login": "Login",
+    "@login": {},
+    "total_balance": "Total Balance",
+    "@total_balance": {},
+    
+    "settings": "Settings",
+    "@settings": {},
+    "currency": "Currency",
+    "@currency": {},
+    "security": "Security",
+    "@security": {},
+    "notification": "Notification",
+    "@notification": {},
+    "about": "About",
+    "@about": {},
+    "help": "Help",
+    "@help": {},
+    
+    "theme": "Theme",
+    "@theme": {},
+    "light": "Light",
+    "@light": {},
+    "dark": "Dark",
+    "@dark": {},
+    "system": "System",
+    "@system": {},
+    "createDesignAndDeveloper": "Creative Designer & Developer",
+    "@createDesignAndDeveloper": {
+        "description": "This is title home page."
+    },
+    "hiImName": "Hi I'm {name}",
+    "@hiImName": {
+        "placeholders": {
+            "name":{
+                "type": "String"
+            }
+        }
+    },
+    "basedOnCountry": "Based on {country}",
+    "@basedOnCountry": {
+        "placeholders": {
+            "country": {
+                "type": "String"
+            }
+        }
+    }
+    , 
+    "bio": "I build solutions that solve real problems, develop impactful apps, and help people and businesses succeed.",
+    "@bio": {
+        "description": "This is bio important in my app."
+    },
+    "contactMe": "Contact Me",
+    "@contactMe": {},
+    "portfolio": "Portfolio",
+    "@portfolio": {},
+    "portfolioShowcase": "Portfolio Showcase",
+    "@portfolioShowcase": {},
+    "portfolioBio": "If you’re interested in working together, have projects in mind, or simply want to connect feel free to reach out through the form to the right or via the contact information provided.",
+    "@portfolioBio": {},
+    "services": "Services",
+    "@services": {},
+    "service": "Service",
+    "@service": {},
+    "home": "Home",
+    "@home": {},
+    "testimonials": "Testimonials",
+    "@testimonials": {},
+    "project": "Project",
+    "@project": {},
+    "projects": "Projects",
+    "@projects": {},
+    "techDev": "Tech Dev",
+    "@techDev": {},
+    "uiUxDesign": "UX/UI Design",
+    "@uiUxDesign": {},
+    "langDev": "DART • FLUTTER • NODE • PYTHON • HTML• CSS • NPM • BLOC • CLEAN CODE • RESPONSIVE • PERFORMANCE • JAVA SCRIPT • UI/UX • GRAPHIC DESIGNER • PROBLEM SOLVING • GITHUB • TEAMS •",
+    "@langDev": {}
+
+}

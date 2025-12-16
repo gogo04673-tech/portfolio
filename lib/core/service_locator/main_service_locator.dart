@@ -1,4 +1,5 @@
 import 'package:get_it/get_it.dart';
+import 'package:portfolio/core/service_locator/localization_service_locator.dart';
 import 'package:portfolio/core/service_locator/theme_service_locator.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'storage_service.dart';
@@ -16,6 +17,7 @@ class MainServiceLocator {
     );
 
     // You can now register other features (Auth, Theme, Budget...) here
-    await ThemeServiceLocator.init();
+    ThemeServiceLocator.init();
+    LocalizationServiceLocator.init();
   }
 }

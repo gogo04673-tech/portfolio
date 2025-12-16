@@ -4,7 +4,7 @@ import 'package:portfolio/common/widgets/navigation_bar.dart';
 import 'package:portfolio/features/about/presentation/pages/about_desktop.dart';
 import 'package:portfolio/features/contact/presentation/pages/contact_desktop.dart';
 import 'package:portfolio/features/home/presentation/pages/home_desktop.dart';
-import 'package:portfolio/features/portfolio_view/presentation/bloc/page_cubit.dart';
+import 'package:portfolio/features/portfolio/presentation/bloc/page_cubit.dart';
 import 'package:portfolio/features/projects/presentation/pages/projects_desktop.dart';
 import 'package:portfolio/features/services/presentation/pages/services_desktop.dart';
 import 'package:portfolio/features/skills/presentation/pages/skills_desktop.dart';

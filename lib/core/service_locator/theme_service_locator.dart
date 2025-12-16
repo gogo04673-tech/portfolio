@@ -9,7 +9,7 @@ import 'package:portfolio/features/theme/presentation/bloc/theme_bloc.dart';
 final GetIt sl = GetIt.instance;
 
 class ThemeServiceLocator {
-  static Future<void> init() async {
+  static init() async {
     // Services
     sl.registerLazySingleton<ThemeServices>(
       () => ThemeServicesImpl(storage: sl()),

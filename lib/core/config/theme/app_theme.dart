@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:portfolio/core/config/theme/colors/app_custom_color.dart';
+import 'package:portfolio/core/config/theme/text_style/app_text_style.dart';
 import 'colors/app_colors.dart';
 
 class AppTheme {
@@ -12,7 +13,7 @@ class AppTheme {
     final colorScheme = baseTheme.colorScheme.copyWith(
       primary: AppColors.primary,
       onPrimary: isDark ? AppColors.textPrimaryDark : AppColors.textPrimary,
-      secondary: isDark ? AppColors.surfaceDark : AppColors.surfaceLight,
+      secondary: AppColors.secondary,
       onSecondary: isDark ? AppColors.onSurfaceDark : AppColors.onSurfaceLight,
       surface: isDark ? AppColors.surfaceDark : AppColors.surfaceLight,
       onSurface: isDark ? AppColors.onSurfaceDark : AppColors.onSurfaceLight,
@@ -34,15 +35,13 @@ class AppTheme {
       ],
       iconTheme: IconThemeData(color: colorScheme.primary),
 
-      // * Text Theme
-      textTheme: GoogleFonts.interTextTheme(baseTheme.textTheme)
-          .apply(
-            bodyColor: colorScheme.onSurface,
-
-            displayColor: colorScheme.onSurface,
-          )
+      // * Text Theme Bricolage Grotesque
+      textTheme: GoogleFonts.bricolageGrotesqueTextTheme(baseTheme.textTheme)
           .copyWith(
-            bodySmall: TextStyle(color: Colors.black.withValues(alpha: 0.2)),
+            bodySmall: AppTextStyles.bodySmall(),
+            headlineLarge: AppTextStyles.headerLarge(),
+            headlineSmall: AppTextStyles.headerSmall(),
+            headlineMedium: AppTextStyles.headLineMedium(),
           ),
 
       // * AppBar

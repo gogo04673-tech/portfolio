@@ -31,25 +31,23 @@ class _HoverTextState extends State<HoverText> {
       onEnter: (_) => _isHover.value = true,
       onExit: (_) => _isHover.value = false,
       cursor: SystemMouseCursors.click,
-      child: Padding(
-        padding: const EdgeInsets.symmetric(horizontal: 20),
-        child: GestureDetector(
-          onTap: widget.onTap,
-          child: ValueListenableBuilder<bool>(
-            valueListenable: _isHover,
-            builder: (context, isHovering, _) {
-              final Color color = widget.isActive || isHovering
-                  ? Theme.of(context).colorScheme.primary
-                  : Colors.white;
+      child: GestureDetector(
+        onTap: widget.onTap,
+        child: ValueListenableBuilder<bool>(
+          valueListenable: _isHover,
+          builder: (context, isHovering, _) {
+            final Color color = widget.isActive || isHovering
+                ? Theme.of(context).colorScheme.secondary
+                : Colors.white;
 
-              return Text(
-                widget.title,
-                style: Theme.of(
-                  context,
-                ).textTheme.headlineLarge!.copyWith(fontSize: 20, color: color),
-              );
-            },
-          ),
+            return Text(
+              widget.title,
+
+              style: Theme.of(
+                context,
+              ).textTheme.headlineSmall!.copyWith(color: color),
+            );
+          },
         ),
       ),
     );

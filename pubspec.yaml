@@ -14,6 +14,8 @@ dependencies:
     sdk: flutter
 
   cupertino_icons: ^1.0.8
+  flutter_localizations:
+    sdk: flutter
   flutter_bloc: ^9.1.1
   get_it: ^9.0.5
   equatable: ^2.0.7
@@ -38,6 +40,7 @@ dev_dependencies:
 flutter:
 
   uses-material-design: true
+  generate: true
 
   assets:
     - assets/lottie/

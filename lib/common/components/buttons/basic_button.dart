@@ -28,7 +28,7 @@ class _BasicButtonState extends State<BasicButton> {
           boxShadow: isHovered
               ? [
                   BoxShadow(
-                    color: const Color(0xFF1FE6ED).withValues(alpha: 0.8),
+                    color: theme.colorScheme.primary.withValues(alpha: 0.8),
                     blurRadius: 35,
                     spreadRadius: 3,
                   ),
@@ -38,7 +38,7 @@ class _BasicButtonState extends State<BasicButton> {
         child: ElevatedButton(
           onPressed: widget.onPressed,
           style: ElevatedButton.styleFrom(
-            backgroundColor: const Color(0xFF1FE6ED),
+            backgroundColor: theme.colorScheme.primary,
             elevation: 0,
             padding: const EdgeInsets.symmetric(horizontal: 30, vertical: 20),
           ),
