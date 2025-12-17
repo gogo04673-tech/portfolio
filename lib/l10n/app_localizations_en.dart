@@ -51,7 +51,10 @@ class AppLocalizationsEn extends AppLocalizations {
   String get system => 'System';
 
   @override
-  String get createDesignAndDeveloper => 'Creative Designer & Developer';
+  String get creative => 'Creative';
+
+  @override
+  String get designAndDeveloper => 'Designer &\nDeveloper';
 
   @override
   String hiImName(String name) {

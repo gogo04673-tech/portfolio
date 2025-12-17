@@ -179,11 +179,17 @@ abstract class AppLocalizations {
   /// **'System'**
   String get system;
 
+  /// No description provided for @creative.
+  ///
+  /// In en, this message translates to:
+  /// **'Creative'**
+  String get creative;
+
   /// This is title home page.
   ///
   /// In en, this message translates to:
-  /// **'Creative Designer & Developer'**
-  String get createDesignAndDeveloper;
+  /// **'Designer &\nDeveloper'**
+  String get designAndDeveloper;
 
   /// No description provided for @hiImName.
   ///

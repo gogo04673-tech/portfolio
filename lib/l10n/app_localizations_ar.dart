@@ -51,7 +51,10 @@ class AppLocalizationsAr extends AppLocalizations {
   String get system => 'النظام';
 
   @override
-  String get createDesignAndDeveloper => 'مصمم ومطور إبداعي';
+  String get creative => 'إبداعي';
+
+  @override
+  String get designAndDeveloper => 'مصمم ومطور إبداعي';
 
   @override
   String hiImName(String name) {

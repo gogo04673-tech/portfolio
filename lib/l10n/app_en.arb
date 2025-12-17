@@ -30,8 +30,10 @@
     "@dark": {},
     "system": "System",
     "@system": {},
-    "createDesignAndDeveloper": "Creative Designer & Developer",
-    "@createDesignAndDeveloper": {
+    "creative": "Creative",
+    "@creative": {},
+    "designAndDeveloper": "Designer &\nDeveloper",
+    "@designAndDeveloper": {
         "description": "This is title home page."
     },
     "hiImName": "Hi I'm {name}",

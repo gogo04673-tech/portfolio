@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:portfolio/core/config/theme/colors/app_custom_color.dart';
+import 'package:portfolio/core/config/theme/design/spacing.dart';
+import 'package:portfolio/core/config/theme/extensions/app_spacing_theme.dart';
 import 'package:portfolio/core/config/theme/text_style/app_text_style.dart';
 import 'colors/app_colors.dart';
 
@@ -27,6 +29,15 @@ class AppTheme {
       scaffoldBackgroundColor: colorScheme.surface,
 
       extensions: [
+        AppSpacingTheme(
+          xs: AppSpacing.xs,
+          sm: AppSpacing.sm,
+          md: AppSpacing.md,
+          lg: AppSpacing.lg,
+          xl: AppSpacing.xl,
+          xxl: AppSpacing.xxl,
+        ),
+
         AppCustomColors(
           paragraphColor: Colors.black.withValues(alpha: .2),
           white: Colors.white,
