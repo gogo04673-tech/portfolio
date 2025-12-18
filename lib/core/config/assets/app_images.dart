@@ -15,4 +15,6 @@ class AppImages {
   static const String apple = '$basePath/apple.png';
 
   static const String spendlyProject = '$basePath/spendly.png';
+
+  static const String myPhoto = '$basePath/photo.png';
 }
