@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:portfolio/features/home/presentation/pages/home_desktop.dart';
+import 'package:portfolio/features/about/presentation/pages/about.dart';
+import 'package:portfolio/features/home/presentation/pages/home.dart';
 
 class DashboardWeb extends StatelessWidget {
   const DashboardWeb({super.key});
@@ -10,7 +11,8 @@ class DashboardWeb extends StatelessWidget {
     return Column(
       children: [
         SizedBox(height: 48.sp),
-        const HomeDesktop(),
+        const HomePage(),
+        const AboutPage(),
       ],
     );
   }

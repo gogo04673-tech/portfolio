@@ -11,10 +11,14 @@ class PortfolioPage extends StatelessWidget {
     return Scaffold(
       appBar: const AppBarPortfolio(),
 
-      body: Stack(
-        alignment: Alignment.center,
-        clipBehavior: Clip.none,
-        children: [const CircleBackground(), widget],
+      body: SingleChildScrollView(
+        padding: const EdgeInsets.symmetric(horizontal: 8.0),
+
+        child: Stack(
+          alignment: Alignment.center,
+          clipBehavior: Clip.none,
+          children: [const CircleBackground(), widget],
+        ),
       ),
     );
   }

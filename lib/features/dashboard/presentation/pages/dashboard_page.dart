@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:portfolio/common/widgets/appear_animation.dart';
 import 'package:portfolio/core/responsive/responsive_builder.dart';
 import 'package:portfolio/features/dashboard/presentation/layouts/dashboard_mobile.dart';
 import 'package:portfolio/features/dashboard/presentation/layouts/dashboard_tablet.dart';
@@ -11,10 +12,12 @@ class DashboardPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const PortfolioPage(
-      widget: ResponsiveBuilder(
-        mobile: DashboardMobile(),
-        tablet: DashboardTablet(),
-        web: DashboardWeb(),
+      widget: AppearAnimation(
+        child: ResponsiveBuilder(
+          mobile: DashboardMobile(),
+          tablet: DashboardTablet(),
+          web: DashboardWeb(),
+        ),
       ),
     );
   }

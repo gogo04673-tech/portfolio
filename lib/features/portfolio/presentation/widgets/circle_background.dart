@@ -1,27 +1,38 @@
+import 'dart:math';
+
 import 'package:flutter/material.dart';
+import 'package:portfolio/core/extensions/device_extension.dart';
+import 'package:portfolio/core/responsive/breakpoints.dart';
 
 class CircleBackground extends StatelessWidget {
   const CircleBackground({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return Stack(
-      clipBehavior:
-          Clip.none, // مهم جداً لتسمح للـ circle بالخروج من حدود Stack
-      children: [
-        Positioned(
-          top: 872, // y
-          left: -851, // x
-          child: Container(
-            width: 3464,
-            height: 3181,
-            decoration: BoxDecoration(
-              shape: BoxShape.circle,
-              color: Colors.blue.withValues(alpha: 0.2),
-            ),
-          ),
-        ),
-      ],
+    return Positioned(
+      top: context.height * .75,
+      child: CustomPaint(
+        size: Size(Breakpoints.isMobile ? 3000 : 7000, 4000),
+        // size: const Size(7564, 4181),
+        painter: HalfCirclePainter(),
+      ),
     );
   }
+}
+
+class HalfCirclePainter extends CustomPainter {
+  @override
+  void paint(Canvas canvas, Size size) {
+    final paint = Paint()..color = Colors.white.withOpacity(.04);
+    canvas.drawArc(
+      Rect.fromLTWH(0, 0, size.width, size.height * 2),
+      pi,
+      pi,
+      true,
+      paint,
+    );
+  }
+
+  @override
+  bool shouldRepaint(covariant CustomPainter oldDelegate) => false;
 }
