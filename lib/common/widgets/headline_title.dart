@@ -3,22 +3,26 @@ import 'package:portfolio/common/widgets/appear_animation.dart';
 
 class HeadlineTitle extends StatelessWidget {
   final String gradientText;
-  final String text;
+  final String? text;
+  final bool isMedium;
   const HeadlineTitle({
     super.key,
     required this.gradientText,
-    required this.text,
+    this.text,
+    this.isMedium = false,
   });
 
   @override
   Widget build(BuildContext context) {
-    final headlineLarge = Theme.of(context).textTheme.headlineLarge;
+    final textStyle = isMedium
+        ? Theme.of(context).textTheme.titleMedium
+        : Theme.of(context).textTheme.headlineLarge;
 
     return AppearAnimation(
       child: RichText(
-        textAlign: TextAlign.center,
+        textAlign: isMedium ? TextAlign.start : TextAlign.center,
         text: TextSpan(
-          style: headlineLarge,
+          style: textStyle,
           children: [
             WidgetSpan(
               alignment: PlaceholderAlignment.baseline,
@@ -30,10 +34,10 @@ class HeadlineTitle extends StatelessWidget {
                     Theme.of(context).colorScheme.primary,
                   ],
                 ).createShader(bounds),
-                child: Text("$gradientText ", style: headlineLarge),
+                child: Text(gradientText, style: textStyle),
               ),
             ),
-            TextSpan(text: text, style: headlineLarge),
+            TextSpan(text: text ?? '', style: textStyle),
           ],
         ),
       ),

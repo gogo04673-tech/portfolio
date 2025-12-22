@@ -12,7 +12,7 @@ class AppLocalizationsAr extends AppLocalizations {
   String get language => 'اللغة';
 
   @override
-  String get welcome => 'مرحبا';
+  String get welcome => 'مرحبًا';
 
   @override
   String get login => 'تسجيل الدخول';
@@ -36,10 +36,13 @@ class AppLocalizationsAr extends AppLocalizations {
   String get about => 'حول';
 
   @override
+  String get me => 'أنا';
+
+  @override
   String get help => 'مساعدة';
 
   @override
-  String get theme => 'الثيم';
+  String get theme => 'المظهر';
 
   @override
   String get light => 'فاتح';
@@ -54,32 +57,38 @@ class AppLocalizationsAr extends AppLocalizations {
   String get creative => 'إبداعي';
 
   @override
-  String get designAndDeveloper => 'مصمم ومطور إبداعي';
+  String get designAndDeveloper => 'مصمم و\nمطور';
 
   @override
   String hiImName(String name) {
-    return 'مرحباً، أنا $name';
+    return 'مرحبًا، أنا $name';
   }
+
+  @override
+  String get helloIm => 'مرحبًا، أنا';
 
   @override
   String basedOnCountry(String country) {
-    return 'مبني على $country';
+    return 'مقيم في $country';
   }
 
   @override
-  String get bio => 'أقوم ببناء حلول تحل المشاكل الحقيقية، تطوير تطبيقات مؤثرة، ومساعدة الأفراد والشركات على النجاح.';
+  String get bio => 'أبني حلولًا تعالج مشكلات حقيقية، وأطوّر تطبيقات مؤثرة، وأساعد الأفراد والشركات على النجاح.';
 
   @override
   String get contactMe => 'تواصل معي';
 
   @override
-  String get portfolio => 'المعرض';
+  String get portfolio => 'أعمالي';
 
   @override
-  String get portfolioShowcase => 'عرض المعرض';
+  String get portfolioShowcase => 'عرض الأعمال';
 
   @override
-  String get portfolioBio => 'إذا كنت مهتماً بالعمل معاً، لديك مشاريع في ذهنك، أو ترغب ببساطة في التواصل، لا تتردد في الوصول إلي من خلال النموذج على اليمين أو عبر معلومات الاتصال المتوفرة.';
+  String get portfolioBio => 'إذا كنت مهتمًا بالعمل معًا، أو لديك مشاريع في ذهنك، أو ترغب فقط في التواصل، لا تتردد في التواصل عبر النموذج على اليمين أو من خلال معلومات الاتصال المتاحة.';
+
+  @override
+  String get aboutBio => 'أبني حلولًا تعالج مشكلات حقيقية وأطوّر تطبيقات مؤثرة للأفراد والشركات. مطوّر Flutter مع خبرة في الخلفية باستخدام Node.js ومنصات السحابة مثل Firebase وSupabase، أقدّم حلولًا متكاملة من البداية إلى النهاية مع تركيز قوي على تصميم واجهات وتجربة المستخدم بالاعتماد على Figma. أركز على بناء تطبيقات نظيفة، قابلة للتوسّع، وسهلة الاستخدام، تُقدّم قيمة حقيقية وأثرًا طويل المدى.';
 
   @override
   String get services => 'الخدمات';
@@ -100,11 +109,29 @@ class AppLocalizationsAr extends AppLocalizations {
   String get projects => 'المشاريع';
 
   @override
-  String get techDev => 'تطوير تقني';
+  String get techDev => 'التطوير التقني';
 
   @override
-  String get uiUxDesign => 'تصميم UX/UI';
+  String get uiUxDesign => 'تصميم تجربة وواجهة المستخدم';
 
   @override
-  String get langDev => 'DART • FLUTTER • NODE • PYTHON • HTML • CSS • NPM • BLOC • CLEAN CODE • RESPONSIVE • PERFORMANCE • JAVA SCRIPT • UI/UX • GRAPHIC DESIGNER • PROBLEM SOLVING • GITHUB • TEAMS •';
+  String get langDev => 'DART • FLUTTER • NODE • PYTHON • HTML • CSS • NPM • BLOC • CLEAN CODE • RESPONSIVE • PERFORMANCE • JAVASCRIPT • UI/UX • GRAPHIC DESIGN • PROBLEM SOLVING • GITHUB • TEAMWORK •';
+
+  @override
+  String get totalProjects => 'إجمالي المشاريع';
+
+  @override
+  String get totalProjectsBio => 'ابتكار حلول تصنع الفرق';
+
+  @override
+  String get certificates => 'الشهادات';
+
+  @override
+  String get certificatesBio => 'إتقان المهارات ونيل التقدير';
+
+  @override
+  String get yearsOfExperience => 'سنوات الخبرة';
+
+  @override
+  String get yearsBio => 'تحويل الأفكار إلى أثر';
 }

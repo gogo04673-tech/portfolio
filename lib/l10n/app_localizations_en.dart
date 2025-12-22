@@ -30,10 +30,13 @@ class AppLocalizationsEn extends AppLocalizations {
   String get security => 'Security';
 
   @override
-  String get notification => 'Notification';
+  String get notification => 'Notifications';
 
   @override
   String get about => 'About';
+
+  @override
+  String get me => 'Me';
 
   @override
   String get help => 'Help';
@@ -58,12 +61,15 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String hiImName(String name) {
-    return 'Hi I\'m $name';
+    return 'Hi, I\'m $name';
   }
 
   @override
+  String get helloIm => 'Hello, I\'m';
+
+  @override
   String basedOnCountry(String country) {
-    return 'Based on $country';
+    return 'Based in $country';
   }
 
   @override
@@ -79,7 +85,10 @@ class AppLocalizationsEn extends AppLocalizations {
   String get portfolioShowcase => 'Portfolio Showcase';
 
   @override
-  String get portfolioBio => 'If you’re interested in working together, have projects in mind, or simply want to connect feel free to reach out through the form to the right or via the contact information provided.';
+  String get portfolioBio => 'If you\'re interested in working together, have projects in mind, or simply want to connect, feel free to reach out using the form on the right or through the provided contact information.';
+
+  @override
+  String get aboutBio => 'I build solutions that solve real problems and develop impactful applications for people and businesses. Flutter Developer with backend experience in Node.js and cloud platforms such as Firebase and Supabase, delivering end-to-end solutions with strong UI/UX design based on Figma. Focused on clean, scalable, and user-friendly apps that create real value and long-term impact.';
 
   @override
   String get services => 'Services';
@@ -100,11 +109,29 @@ class AppLocalizationsEn extends AppLocalizations {
   String get projects => 'Projects';
 
   @override
-  String get techDev => 'Tech Dev';
+  String get techDev => 'Tech Development';
 
   @override
-  String get uiUxDesign => 'UX/UI Design';
+  String get uiUxDesign => 'UI/UX Design';
 
   @override
-  String get langDev => 'DART • FLUTTER • NODE • PYTHON • HTML• CSS • NPM • BLOC • CLEAN CODE • RESPONSIVE • PERFORMANCE • JAVA SCRIPT • UI/UX • GRAPHIC DESIGNER • PROBLEM SOLVING • GITHUB • TEAMS •';
+  String get langDev => 'DART • FLUTTER • NODE • PYTHON • HTML • CSS • NPM • BLOC • CLEAN CODE • RESPONSIVE • PERFORMANCE • JAVASCRIPT • UI/UX • GRAPHIC DESIGN • PROBLEM SOLVING • GITHUB • TEAMWORK •';
+
+  @override
+  String get totalProjects => 'Total Projects';
+
+  @override
+  String get totalProjectsBio => 'Creating solutions that matter';
+
+  @override
+  String get certificates => 'Certificates';
+
+  @override
+  String get certificatesBio => 'Mastering skills, earning recognition';
+
+  @override
+  String get yearsOfExperience => 'Years of Experience';
+
+  @override
+  String get yearsBio => 'Turning ideas into impact';
 }

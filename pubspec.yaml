@@ -29,6 +29,7 @@ dependencies:
   adaptive_ui_layout: ^1.1.0
   device_info_plus: ^12.3.0
   go_router: ^17.0.1
+  flutter_svg: any
 
 dev_dependencies:
   flutter_test:
@@ -45,6 +46,7 @@ flutter:
   assets:
     - assets/lottie/
     - assets/images/
+    - assets/icons/
 
 
   fonts:

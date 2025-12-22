@@ -10,7 +10,7 @@ class CircleBackground extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Positioned(
-      top: context.height * .75,
+      top: Breakpoints.isMobile ? context.height * .7 : context.height * .75,
       child: CustomPaint(
         size: Size(Breakpoints.isMobile ? 3000 : 7000, 4000),
         // size: const Size(7564, 4181),

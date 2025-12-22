@@ -1,85 +1,144 @@
 {
     "@@locale": "ar",
+
     "language": "اللغة",
     "@language": {},
-    "welcome": "مرحبا",
+
+    "welcome": "مرحبًا",
     "@welcome": {},
+
     "login": "تسجيل الدخول",
     "@login": {},
+
     "total_balance": "إجمالي الرصيد",
     "@total_balance": {},
-    
+
     "settings": "الإعدادات",
     "@settings": {},
+
     "currency": "العملة",
     "@currency": {},
+
     "security": "الأمان",
     "@security": {},
+
     "notification": "الإشعارات",
     "@notification": {},
+
     "about": "حول",
     "@about": {},
+
+    "me": "أنا",
+    "@me": {},
+
     "help": "مساعدة",
     "@help": {},
-    
-    "theme": "الثيم",
+
+    "theme": "المظهر",
     "@theme": {},
+
     "light": "فاتح",
     "@light": {},
+
     "dark": "داكن",
     "@dark": {},
+
     "system": "النظام",
     "@system": {},
+
     "creative": "إبداعي",
     "@creative": {},
-    "designAndDeveloper": "مصمم ومطور إبداعي",
+
+    "designAndDeveloper": "مصمم و\nمطور",
     "@designAndDeveloper": {
-        "description": "هذا عنوان الصفحة الرئيسية."
+        "description": "هذا عنوان الصفحة الرئيسية"
     },
-    "hiImName": "مرحباً، أنا {name}",
+
+    "hiImName": "مرحبًا، أنا {name}",
     "@hiImName": {
         "placeholders": {
-            "name": {
-                "type": "String"
-            }
+        "name": {
+            "type": "String"
+        }
         }
     },
-    "basedOnCountry": "مبني على {country}",
+
+    "helloIm": "مرحبًا، أنا",
+    "@helloIm": {},
+
+    "basedOnCountry": "مقيم في {country}",
     "@basedOnCountry": {
         "placeholders": {
-            "country": {
-                "type": "String"
-            }
+        "country": {
+            "type": "String"
+        }
         }
     },
-    "bio": "أقوم ببناء حلول تحل المشاكل الحقيقية، تطوير تطبيقات مؤثرة، ومساعدة الأفراد والشركات على النجاح.",
+
+    "bio": "أبني حلولًا تعالج مشكلات حقيقية، وأطوّر تطبيقات مؤثرة، وأساعد الأفراد والشركات على النجاح.",
     "@bio": {
-        "description": "هذا هو السيرة الذاتية المهمة في التطبيق."
+        "description": "نبذة تعريفية مهمة في التطبيق"
     },
+
     "contactMe": "تواصل معي",
     "@contactMe": {},
-    "portfolio": "المعرض",
+
+    "portfolio": "أعمالي",
     "@portfolio": {},
-    "portfolioShowcase": "عرض المعرض",
+
+    "portfolioShowcase": "عرض الأعمال",
     "@portfolioShowcase": {},
-    "portfolioBio": "إذا كنت مهتماً بالعمل معاً، لديك مشاريع في ذهنك، أو ترغب ببساطة في التواصل، لا تتردد في الوصول إلي من خلال النموذج على اليمين أو عبر معلومات الاتصال المتوفرة.",
+
+    "portfolioBio": "إذا كنت مهتمًا بالعمل معًا، أو لديك مشاريع في ذهنك، أو ترغب فقط في التواصل، لا تتردد في التواصل عبر النموذج على اليمين أو من خلال معلومات الاتصال المتاحة.",
     "@portfolioBio": {},
+
+    "aboutBio": "أبني حلولًا تعالج مشكلات حقيقية وأطوّر تطبيقات مؤثرة للأفراد والشركات. مطوّر Flutter مع خبرة في الخلفية باستخدام Node.js ومنصات السحابة مثل Firebase وSupabase، أقدّم حلولًا متكاملة من البداية إلى النهاية مع تركيز قوي على تصميم واجهات وتجربة المستخدم بالاعتماد على Figma. أركز على بناء تطبيقات نظيفة، قابلة للتوسّع، وسهلة الاستخدام، تُقدّم قيمة حقيقية وأثرًا طويل المدى.",
+    "@aboutBio": {
+        "description": "نبذة عني"
+    },
+
     "services": "الخدمات",
     "@services": {},
+
     "service": "خدمة",
     "@service": {},
+
     "home": "الرئيسية",
     "@home": {},
+
     "testimonials": "آراء العملاء",
     "@testimonials": {},
+
     "project": "مشروع",
     "@project": {},
+
     "projects": "المشاريع",
     "@projects": {},
-    "techDev": "تطوير تقني",
+
+    "techDev": "التطوير التقني",
     "@techDev": {},
-    "uiUxDesign": "تصميم UX/UI",
+
+    "uiUxDesign": "تصميم تجربة وواجهة المستخدم",
     "@uiUxDesign": {},
-    "langDev": "DART • FLUTTER • NODE • PYTHON • HTML • CSS • NPM • BLOC • CLEAN CODE • RESPONSIVE • PERFORMANCE • JAVA SCRIPT • UI/UX • GRAPHIC DESIGNER • PROBLEM SOLVING • GITHUB • TEAMS •",
-    "@langDev": {}
+
+    "langDev": "DART • FLUTTER • NODE • PYTHON • HTML • CSS • NPM • BLOC • CLEAN CODE • RESPONSIVE • PERFORMANCE • JAVASCRIPT • UI/UX • GRAPHIC DESIGN • PROBLEM SOLVING • GITHUB • TEAMWORK •",
+    "@langDev": {},
+
+    "totalProjects": "إجمالي المشاريع",
+    "@totalProjects": {},
+
+    "totalProjectsBio": "ابتكار حلول تصنع الفرق",
+    "@totalProjectsBio": {},
+
+    "certificates": "الشهادات",
+    "@certificates": {},
+
+    "certificatesBio": "إتقان المهارات ونيل التقدير",
+    "@certificatesBio": {},
+
+    "yearsOfExperience": "سنوات الخبرة",
+    "@yearsOfExperience": {},
+
+    "yearsBio": "تحويل الأفكار إلى أثر",
+    "@yearsBio": {}
 }

@@ -36,6 +36,7 @@ class AppTheme {
           lg: AppSpacing.lg,
           xl: AppSpacing.xl,
           xxl: AppSpacing.xxl,
+          xxl64: AppSpacing.xxl64,
         ),
 
         AppCustomColors(
@@ -53,6 +54,7 @@ class AppTheme {
             headlineLarge: AppTextStyles.headerLarge(),
             headlineSmall: AppTextStyles.headerSmall(),
             headlineMedium: AppTextStyles.headLineMedium(),
+            titleMedium: AppTextStyles.titleMedium(),
           ),
 
       // * AppBar

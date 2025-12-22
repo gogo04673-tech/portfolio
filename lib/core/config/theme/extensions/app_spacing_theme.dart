@@ -10,6 +10,7 @@ class AppSpacingTheme extends ThemeExtension<AppSpacingTheme> {
   final double lg;
   final double xl;
   final double xxl;
+  final double xxl64;
 
   const AppSpacingTheme({
     required this.xs,
@@ -18,6 +19,7 @@ class AppSpacingTheme extends ThemeExtension<AppSpacingTheme> {
     required this.lg,
     required this.xl,
     required this.xxl,
+    required this.xxl64,
   });
 
   @override
@@ -28,6 +30,7 @@ class AppSpacingTheme extends ThemeExtension<AppSpacingTheme> {
     double? lg,
     double? xl,
     double? xxl,
+    double? xxl64,
   }) {
     return AppSpacingTheme(
       xs: xs ?? this.xs,
@@ -36,6 +39,7 @@ class AppSpacingTheme extends ThemeExtension<AppSpacingTheme> {
       lg: lg ?? this.lg,
       xl: xl ?? this.xl,
       xxl: xxl ?? this.xxl,
+      xxl64: xxl ?? this.xxl64,
     );
   }
 
@@ -52,6 +56,7 @@ class AppSpacingTheme extends ThemeExtension<AppSpacingTheme> {
       lg: lerpDouble(lg, other.lg, t)!,
       xl: lerpDouble(xl, other.xl, t)!,
       xxl: lerpDouble(xxl, other.xxl, t)!,
+      xxl64: lerpDouble(xxl64, other.xxl64, t)!,
     );
   }
 }

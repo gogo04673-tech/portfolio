@@ -1,87 +1,144 @@
 {
     "@@locale": "en",
+
     "language": "Language",
     "@language": {},
+
     "welcome": "Welcome",
     "@welcome": {},
+
     "login": "Login",
     "@login": {},
+
     "total_balance": "Total Balance",
     "@total_balance": {},
-    
+
     "settings": "Settings",
     "@settings": {},
+
     "currency": "Currency",
     "@currency": {},
+
     "security": "Security",
     "@security": {},
-    "notification": "Notification",
+
+    "notification": "Notifications",
     "@notification": {},
+
     "about": "About",
     "@about": {},
+
+    "me": "Me",
+    "@me": {},
+
     "help": "Help",
     "@help": {},
-    
+
     "theme": "Theme",
     "@theme": {},
+
     "light": "Light",
     "@light": {},
+
     "dark": "Dark",
     "@dark": {},
+
     "system": "System",
     "@system": {},
+
     "creative": "Creative",
     "@creative": {},
+
     "designAndDeveloper": "Designer &\nDeveloper",
     "@designAndDeveloper": {
-        "description": "This is title home page."
+        "description": "Home page title"
     },
-    "hiImName": "Hi I'm {name}",
+
+    "hiImName": "Hi, I'm {name}",
     "@hiImName": {
         "placeholders": {
-            "name":{
-                "type": "String"
-            }
+        "name": {
+            "type": "String"
+        }
         }
     },
-    "basedOnCountry": "Based on {country}",
+
+    "helloIm": "Hello, I'm",
+    "@helloIm": {},
+
+    "basedOnCountry": "Based in {country}",
     "@basedOnCountry": {
         "placeholders": {
-            "country": {
-                "type": "String"
-            }
+        "country": {
+            "type": "String"
         }
-    }
-    , 
+        }
+    },
+
     "bio": "I build solutions that solve real problems, develop impactful apps, and help people and businesses succeed.",
     "@bio": {
-        "description": "This is bio important in my app."
+        "description": "Main bio used in the app"
     },
+
     "contactMe": "Contact Me",
     "@contactMe": {},
+
     "portfolio": "Portfolio",
     "@portfolio": {},
+
     "portfolioShowcase": "Portfolio Showcase",
     "@portfolioShowcase": {},
-    "portfolioBio": "If you’re interested in working together, have projects in mind, or simply want to connect feel free to reach out through the form to the right or via the contact information provided.",
+
+    "portfolioBio": "If you're interested in working together, have projects in mind, or simply want to connect, feel free to reach out using the form on the right or through the provided contact information.",
     "@portfolioBio": {},
+
+    "aboutBio": "I build solutions that solve real problems and develop impactful applications for people and businesses. Flutter Developer with backend experience in Node.js and cloud platforms such as Firebase and Supabase, delivering end-to-end solutions with strong UI/UX design based on Figma. Focused on clean, scalable, and user-friendly apps that create real value and long-term impact.",
+    "@aboutBio": {
+        "description": "About me section"
+    },
+
     "services": "Services",
     "@services": {},
+
     "service": "Service",
     "@service": {},
+
     "home": "Home",
     "@home": {},
+
     "testimonials": "Testimonials",
     "@testimonials": {},
+
     "project": "Project",
     "@project": {},
+
     "projects": "Projects",
     "@projects": {},
-    "techDev": "Tech Dev",
-    "@techDev": {},
-    "uiUxDesign": "UX/UI Design",
-    "@uiUxDesign": {},
-    "langDev": "DART • FLUTTER • NODE • PYTHON • HTML• CSS • NPM • BLOC • CLEAN CODE • RESPONSIVE • PERFORMANCE • JAVA SCRIPT • UI/UX • GRAPHIC DESIGNER • PROBLEM SOLVING • GITHUB • TEAMS •",
-    "@langDev": {}
 
+    "techDev": "Tech Development",
+    "@techDev": {},
+
+    "uiUxDesign": "UI/UX Design",
+    "@uiUxDesign": {},
+
+    "langDev": "DART • FLUTTER • NODE • PYTHON • HTML • CSS • NPM • BLOC • CLEAN CODE • RESPONSIVE • PERFORMANCE • JAVASCRIPT • UI/UX • GRAPHIC DESIGN • PROBLEM SOLVING • GITHUB • TEAMWORK •",
+    "@langDev": {},
+
+    "totalProjects": "Total Projects",
+    "@totalProjects": {},
+
+    "totalProjectsBio": "Creating solutions that matter",
+    "@totalProjectsBio": {},
+
+    "certificates": "Certificates",
+    "@certificates": {},
+
+    "certificatesBio": "Mastering skills, earning recognition",
+    "@certificatesBio": {},
+
+    "yearsOfExperience": "Years of Experience",
+    "@yearsOfExperience": {},
+
+    "yearsBio": "Turning ideas into impact",
+    "@yearsBio": {}
 }

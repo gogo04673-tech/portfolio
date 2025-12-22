@@ -140,7 +140,7 @@ abstract class AppLocalizations {
   /// No description provided for @notification.
   ///
   /// In en, this message translates to:
-  /// **'Notification'**
+  /// **'Notifications'**
   String get notification;
 
   /// No description provided for @about.
@@ -148,6 +148,12 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'About'**
   String get about;
+
+  /// No description provided for @me.
+  ///
+  /// In en, this message translates to:
+  /// **'Me'**
+  String get me;
 
   /// No description provided for @help.
   ///
@@ -185,7 +191,7 @@ abstract class AppLocalizations {
   /// **'Creative'**
   String get creative;
 
-  /// This is title home page.
+  /// Home page title
   ///
   /// In en, this message translates to:
   /// **'Designer &\nDeveloper'**
@@ -194,16 +200,22 @@ abstract class AppLocalizations {
   /// No description provided for @hiImName.
   ///
   /// In en, this message translates to:
-  /// **'Hi I\'m {name}'**
+  /// **'Hi, I\'m {name}'**
   String hiImName(String name);
+
+  /// No description provided for @helloIm.
+  ///
+  /// In en, this message translates to:
+  /// **'Hello, I\'m'**
+  String get helloIm;
 
   /// No description provided for @basedOnCountry.
   ///
   /// In en, this message translates to:
-  /// **'Based on {country}'**
+  /// **'Based in {country}'**
   String basedOnCountry(String country);
 
-  /// This is bio important in my app.
+  /// Main bio used in the app
   ///
   /// In en, this message translates to:
   /// **'I build solutions that solve real problems, develop impactful apps, and help people and businesses succeed.'**
@@ -230,8 +242,14 @@ abstract class AppLocalizations {
   /// No description provided for @portfolioBio.
   ///
   /// In en, this message translates to:
-  /// **'If you’re interested in working together, have projects in mind, or simply want to connect feel free to reach out through the form to the right or via the contact information provided.'**
+  /// **'If you\'re interested in working together, have projects in mind, or simply want to connect, feel free to reach out using the form on the right or through the provided contact information.'**
   String get portfolioBio;
+
+  /// About me section
+  ///
+  /// In en, this message translates to:
+  /// **'I build solutions that solve real problems and develop impactful applications for people and businesses. Flutter Developer with backend experience in Node.js and cloud platforms such as Firebase and Supabase, delivering end-to-end solutions with strong UI/UX design based on Figma. Focused on clean, scalable, and user-friendly apps that create real value and long-term impact.'**
+  String get aboutBio;
 
   /// No description provided for @services.
   ///
@@ -272,20 +290,56 @@ abstract class AppLocalizations {
   /// No description provided for @techDev.
   ///
   /// In en, this message translates to:
-  /// **'Tech Dev'**
+  /// **'Tech Development'**
   String get techDev;
 
   /// No description provided for @uiUxDesign.
   ///
   /// In en, this message translates to:
-  /// **'UX/UI Design'**
+  /// **'UI/UX Design'**
   String get uiUxDesign;
 
   /// No description provided for @langDev.
   ///
   /// In en, this message translates to:
-  /// **'DART • FLUTTER • NODE • PYTHON • HTML• CSS • NPM • BLOC • CLEAN CODE • RESPONSIVE • PERFORMANCE • JAVA SCRIPT • UI/UX • GRAPHIC DESIGNER • PROBLEM SOLVING • GITHUB • TEAMS •'**
+  /// **'DART • FLUTTER • NODE • PYTHON • HTML • CSS • NPM • BLOC • CLEAN CODE • RESPONSIVE • PERFORMANCE • JAVASCRIPT • UI/UX • GRAPHIC DESIGN • PROBLEM SOLVING • GITHUB • TEAMWORK •'**
   String get langDev;
+
+  /// No description provided for @totalProjects.
+  ///
+  /// In en, this message translates to:
+  /// **'Total Projects'**
+  String get totalProjects;
+
+  /// No description provided for @totalProjectsBio.
+  ///
+  /// In en, this message translates to:
+  /// **'Creating solutions that matter'**
+  String get totalProjectsBio;
+
+  /// No description provided for @certificates.
+  ///
+  /// In en, this message translates to:
+  /// **'Certificates'**
+  String get certificates;
+
+  /// No description provided for @certificatesBio.
+  ///
+  /// In en, this message translates to:
+  /// **'Mastering skills, earning recognition'**
+  String get certificatesBio;
+
+  /// No description provided for @yearsOfExperience.
+  ///
+  /// In en, this message translates to:
+  /// **'Years of Experience'**
+  String get yearsOfExperience;
+
+  /// No description provided for @yearsBio.
+  ///
+  /// In en, this message translates to:
+  /// **'Turning ideas into impact'**
+  String get yearsBio;
 }
 
 class _AppLocalizationsDelegate extends LocalizationsDelegate<AppLocalizations> {
