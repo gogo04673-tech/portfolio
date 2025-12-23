@@ -1,11 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:portfolio/common/widgets/bio_text.dart';
+import 'package:portfolio/core/extensions/l10n_extension.dart';
 import 'package:portfolio/core/extensions/theme_extension.dart';
-import 'package:portfolio/features/services/models/service_model.dart';
+import 'package:portfolio/features/services/domain/entities/service_entity.dart';
 
 class CardService extends StatelessWidget {
-  final ServiceModel service;
+  final ServiceEntity service;
   const CardService(this.service, {super.key});
 
   @override
@@ -25,9 +26,12 @@ class CardService extends StatelessWidget {
         children: [
           SvgPicture.asset(service.icon, width: 52, height: 60),
 
-          Text(service.title, style: context.textTheme.headlineMedium),
+          Text(
+            context.translate(service.titleKey),
+            style: context.textTheme.headlineMedium,
+          ),
 
-          BioText(isStart: true, bio: service.bio),
+          BioText(isStart: true, bio: context.translate(service.bioKey)),
         ],
       ),
     );

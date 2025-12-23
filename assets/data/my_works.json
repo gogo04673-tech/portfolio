@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "titleKey": "spendly",
+        "icon": "mob_dev", 
+        "bioKey": "mobile_dev_bio"
+    },
+    {
+        "id": 2,
+        "titleKey": "Web Development",
+        "icon": "web_dev", 
+        "bioKey": "mobile_dev_bio"
+    },
+    {
+        "id": 2,
+        "titleKey": "Fully Responsive Apps",
+        "icon": "responsive", 
+        "bioKey": "responsive_bio"
+    },
+    {
+        "id": 3,
+        "titleKey": "UI/UX Design",
+        "icon": "design", 
+        "bioKey": "ui_ux_bio"
+    },
+    {
+        "id": 4,
+        "titleKey": "Mobile App Design",
+        "icon": "mob_des", 
+        "bioKey": "mobile_des_bio"
+    },
+    {
+        "id": 5,
+        "titleKey": "Brand Strategy",
+        "icon": "idea", 
+        "bioKey": "brand_bio"
+    }
+]

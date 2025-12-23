@@ -32,3 +32,59 @@ class DashboardWeb extends StatelessWidget {
     );
   }
 }
+// class DashboardWeb extends StatelessWidget {
+//   const DashboardWeb({super.key});
+
+//   @override
+//   Widget build(BuildContext context) {
+//     return Column(
+//       mainAxisAlignment: MainAxisAlignment.center,
+//       children: [
+//         context.spacing.xxl.sp.h,
+//         const HomePage(),
+
+//         SizedBox(height: context.spacing.xxl64.sp * 2),
+//         const AboutPage(),
+
+//         SizedBox(height: context.spacing.xxl64.sp * 2),
+//         const ServicesPage(),
+
+//         SizedBox(height: context.spacing.xxl64.sp * 2),
+//         const MyWorksPage(),
+
+//         const SizedBox(height: 1000),
+//       ],
+//     );
+//   }
+// }
+
+// class DashboardWeb extends StatelessWidget {
+//   const DashboardWeb({super.key});
+
+//   @override
+//   Widget build(BuildContext context) {
+//     return SizedBox(
+//       height: MediaQuery.of(context).size.height, // يعطي ارتفاع الشاشة
+//       child: CustomScrollView(
+//         slivers: [
+//           const SliverToBoxAdapter(child: HomePage()),
+//           SliverToBoxAdapter(
+//             child: SizedBox(height: context.spacing.xxl64.sp * 2),
+//           ),
+
+//           const SliverToBoxAdapter(child: AboutPage()),
+//           SliverToBoxAdapter(
+//             child: SizedBox(height: context.spacing.xxl64.sp * 2),
+//           ),
+
+//           const SliverToBoxAdapter(child: ServicesPage()),
+//           SliverToBoxAdapter(
+//             child: SizedBox(height: context.spacing.xxl64.sp * 2),
+//           ),
+
+//           const SliverToBoxAdapter(child: MyWorksPage()),
+//         ],
+//       ),
+//     );
+//   }
+// }

@@ -97,12 +97,6 @@
         "description": "About me section"
     },
 
-    "services": "Services",
-    "@services": {},
-
-    "service": "Service",
-    "@service": {},
-
     "home": "Home",
     "@home": {},
 
@@ -140,5 +134,47 @@
     "@yearsOfExperience": {},
 
     "yearsBio": "Turning ideas into impact",
-    "@yearsBio": {}
+    "@yearsBio": {},
+
+    "services": "Services",
+    "@services": {},
+
+    "service": "Service",
+    "@service": {},
+
+    "mobile_dev": "Mobile Development",
+    "@mobile_dev": {},
+
+    "mobile_dev_bio": "Mobile developer specializing in Flutter and cross-platform apps. Delivering clean UI and reliable performance.",
+    "@mobile_dev_bio": {},
+
+    "web_dev": "Web Development",
+    "@web_dev": {},
+
+    "web_dev_bio": "Web developer building modern, responsive web applications. Focused on performance, scalability, and clean code.",
+    "@web_dev_bio": {},
+
+    "fully_resp": "Fully Responsive Apps",
+    "@fully_resp": {},
+
+    "fully_resp_bio": "Creating responsive applications for all screen sizes. Focused on usability, flexibility, and scalability.",
+    "@fully_resp_bio": {},
+
+    "ui_ux": "UI/UX Design",
+    "@ui_ux": {},
+
+    "ui_ux_bio": "Shaping meaningful digital experiences through design. Focused on users, details, and flow.",
+    "@ui_ux_bio": {},
+
+    "resp_design": "Responsive Design",
+    "@resp_design": {},
+
+    "resp_design_bio": "Mobile and Web app designer focused on clean UI and smart UX.  Building experiences users enjoy and understand instantly.",
+    "@resp_design_bio": {},
+
+    "brand_str": "Brand Strategy",
+    "@brand_str": {},
+
+    "brand_str_bio": "Developing clear brand strategies that align vision, values, and audience. Building consistent brands that communicate with purpose.",
+    "@brand_str_bio": {}
 }

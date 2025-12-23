@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:portfolio/core/config/routes/router/app_router.dart';
+import 'package:portfolio/core/config/routes/app_router.dart';
 import 'package:portfolio/core/config/theme/app_theme.dart';
 import 'package:portfolio/features/localization/presentation/bloc/language_bloc.dart';
 import 'package:portfolio/features/localization/presentation/bloc/language_state.dart';

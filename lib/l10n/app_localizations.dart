@@ -251,18 +251,6 @@ abstract class AppLocalizations {
   /// **'I build solutions that solve real problems and develop impactful applications for people and businesses. Flutter Developer with backend experience in Node.js and cloud platforms such as Firebase and Supabase, delivering end-to-end solutions with strong UI/UX design based on Figma. Focused on clean, scalable, and user-friendly apps that create real value and long-term impact.'**
   String get aboutBio;
 
-  /// No description provided for @services.
-  ///
-  /// In en, this message translates to:
-  /// **'Services'**
-  String get services;
-
-  /// No description provided for @service.
-  ///
-  /// In en, this message translates to:
-  /// **'Service'**
-  String get service;
-
   /// No description provided for @home.
   ///
   /// In en, this message translates to:
@@ -340,6 +328,90 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Turning ideas into impact'**
   String get yearsBio;
+
+  /// No description provided for @services.
+  ///
+  /// In en, this message translates to:
+  /// **'Services'**
+  String get services;
+
+  /// No description provided for @service.
+  ///
+  /// In en, this message translates to:
+  /// **'Service'**
+  String get service;
+
+  /// No description provided for @mobile_dev.
+  ///
+  /// In en, this message translates to:
+  /// **'Mobile Development'**
+  String get mobile_dev;
+
+  /// No description provided for @mobile_dev_bio.
+  ///
+  /// In en, this message translates to:
+  /// **'Mobile developer specializing in Flutter and cross-platform apps. Delivering clean UI and reliable performance.'**
+  String get mobile_dev_bio;
+
+  /// No description provided for @web_dev.
+  ///
+  /// In en, this message translates to:
+  /// **'Web Development'**
+  String get web_dev;
+
+  /// No description provided for @web_dev_bio.
+  ///
+  /// In en, this message translates to:
+  /// **'Web developer building modern, responsive web applications. Focused on performance, scalability, and clean code.'**
+  String get web_dev_bio;
+
+  /// No description provided for @fully_resp.
+  ///
+  /// In en, this message translates to:
+  /// **'Fully Responsive Apps'**
+  String get fully_resp;
+
+  /// No description provided for @fully_resp_bio.
+  ///
+  /// In en, this message translates to:
+  /// **'Creating responsive applications for all screen sizes. Focused on usability, flexibility, and scalability.'**
+  String get fully_resp_bio;
+
+  /// No description provided for @ui_ux.
+  ///
+  /// In en, this message translates to:
+  /// **'UI/UX Design'**
+  String get ui_ux;
+
+  /// No description provided for @ui_ux_bio.
+  ///
+  /// In en, this message translates to:
+  /// **'Shaping meaningful digital experiences through design. Focused on users, details, and flow.'**
+  String get ui_ux_bio;
+
+  /// No description provided for @resp_design.
+  ///
+  /// In en, this message translates to:
+  /// **'Responsive Design'**
+  String get resp_design;
+
+  /// No description provided for @resp_design_bio.
+  ///
+  /// In en, this message translates to:
+  /// **'Mobile and Web app designer focused on clean UI and smart UX.  Building experiences users enjoy and understand instantly.'**
+  String get resp_design_bio;
+
+  /// No description provided for @brand_str.
+  ///
+  /// In en, this message translates to:
+  /// **'Brand Strategy'**
+  String get brand_str;
+
+  /// No description provided for @brand_str_bio.
+  ///
+  /// In en, this message translates to:
+  /// **'Developing clear brand strategies that align vision, values, and audience. Building consistent brands that communicate with purpose.'**
+  String get brand_str_bio;
 }
 
 class _AppLocalizationsDelegate extends LocalizationsDelegate<AppLocalizations> {
