@@ -139,35 +139,50 @@ class AppLocalizationsEn extends AppLocalizations {
   String get mobile_dev => 'Mobile Development';
 
   @override
-  String get mobile_dev_bio => 'Mobile developer specializing in Flutter and cross-platform apps. Delivering clean UI and reliable performance.';
+  String get mobile_dev_bio => 'Mobile developer specializing in Flutter and cross-platform apps.Delivering clean UI and reliable performance.';
 
   @override
   String get web_dev => 'Web Development';
 
   @override
-  String get web_dev_bio => 'Web developer building modern, responsive web applications. Focused on performance, scalability, and clean code.';
+  String get web_dev_bio => 'Web developer building modern, responsive web applications.Focused on performance, scalability, and clean code.';
 
   @override
   String get fully_resp => 'Fully Responsive Apps';
 
   @override
-  String get fully_resp_bio => 'Creating responsive applications for all screen sizes. Focused on usability, flexibility, and scalability.';
+  String get fully_resp_bio => 'Creating responsive applications for all screen sizes.Focused on usability, flexibility, and scalability.';
 
   @override
   String get ui_ux => 'UI/UX Design';
 
   @override
-  String get ui_ux_bio => 'Shaping meaningful digital experiences through design. Focused on users, details, and flow.';
+  String get ui_ux_bio => 'Shaping meaningful digital experiences through design.Focused on users, details, and flow.';
 
   @override
   String get resp_design => 'Responsive Design';
 
   @override
-  String get resp_design_bio => 'Mobile and Web app designer focused on clean UI and smart UX.  Building experiences users enjoy and understand instantly.';
+  String get resp_design_bio => 'Mobile and Web app designer focused on clean UI and smart UX. Building experiences users enjoy and understand instantly.';
 
   @override
   String get brand_str => 'Brand Strategy';
 
   @override
   String get brand_str_bio => 'Developing clear brand strategies that align vision, values, and audience. Building consistent brands that communicate with purpose.';
+
+  @override
+  String get spendly => 'Spendly';
+
+  @override
+  String get spendly_design => 'spendly_design';
+
+  @override
+  String get spendly_bio => '';
+
+  @override
+  String get market_animals => 'Market Animals';
+
+  @override
+  String get market_animals_design => 'Market Animals Design';
 }

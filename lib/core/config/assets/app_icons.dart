@@ -15,4 +15,5 @@ class AppIcons {
   static const mobileDes = '$basePath/mob_des.svg';
   static const brand = '$basePath/idea.svg';
   static const design = '$basePath/design.svg';
+  static const info = '$basePath/info.svg';
 }

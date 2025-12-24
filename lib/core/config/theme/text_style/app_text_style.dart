@@ -5,7 +5,7 @@ import 'package:portfolio/core/responsive/breakpoints.dart';
 
 class AppTextStyles {
   static TextStyle headerLarge() {
-    return TextStyle(
+    return GoogleFonts.bricolageGrotesque(
       fontSize: Breakpoints.isMobile ? 34 : 64,
       fontWeight: FontWeight.bold,
       color: Colors.white,
@@ -15,7 +15,7 @@ class AppTextStyles {
   }
 
   static TextStyle headerSmall() {
-    return TextStyle(
+    return GoogleFonts.bricolageGrotesque(
       fontSize: Breakpoints.isMobile ? 14 : 16,
       fontWeight: FontWeight.w600,
       color: Colors.white,
@@ -33,7 +33,7 @@ class AppTextStyles {
   }
 
   static TextStyle titleMedium() {
-    return TextStyle(
+    return GoogleFonts.bricolageGrotesque(
       fontSize: Breakpoints.isMobile ? 18 : 28,
       fontWeight: FontWeight.bold,
       color: const Color(0xFFFFFFFF),
@@ -42,14 +42,14 @@ class AppTextStyles {
   }
 
   static TextStyle bodySmall() {
-    return TextStyle(
+    return GoogleFonts.bricolageGrotesque(
       fontSize: Breakpoints.isMobile ? 12 : 18,
       color: const Color(0xFFB8B8B8),
     );
   }
 
   static TextStyle bodyLarge() {
-    return TextStyle(
+    return GoogleFonts.bricolageGrotesque(
       fontSize: Breakpoints.isMobile ? 16 : 14,
       color: Colors.white,
     );

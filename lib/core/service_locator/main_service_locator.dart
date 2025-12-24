@@ -1,5 +1,6 @@
 import 'package:get_it/get_it.dart';
 import 'package:portfolio/core/service_locator/localization_service_locator.dart';
+import 'package:portfolio/core/service_locator/my_works_service_locator.dart';
 import 'package:portfolio/core/service_locator/services_service_locator.dart';
 import 'package:portfolio/core/service_locator/theme_service_locator.dart';
 import 'package:shared_preferences/shared_preferences.dart';
@@ -22,5 +23,6 @@ class MainServiceLocator {
     LocalizationServiceLocator.init();
 
     ServicesServiceLocator.init();
+    MyWorksServiceLocator.init();
   }
 }

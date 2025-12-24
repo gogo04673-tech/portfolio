@@ -1,38 +1,35 @@
 [
     {
         "id": 1,
+        "type": "Development",
         "titleKey": "spendly",
-        "icon": "mob_dev", 
-        "bioKey": "mobile_dev_bio"
+        "background": "spendly", 
+        "bioKey": "spendly_bio",
+        "createdAt": "2025-10-20"
+
     },
     {
         "id": 2,
-        "titleKey": "Web Development",
-        "icon": "web_dev", 
-        "bioKey": "mobile_dev_bio"
-    },
-    {
-        "id": 2,
-        "titleKey": "Fully Responsive Apps",
-        "icon": "responsive", 
-        "bioKey": "responsive_bio"
+        "type": "Development",
+        "titleKey": "market_animals",
+        "background": "spendly", 
+        "bioKey": "spendly_bio",
+        "createdAt": "2026-01-20"
     },
     {
         "id": 3,
-        "titleKey": "UI/UX Design",
-        "icon": "design", 
-        "bioKey": "ui_ux_bio"
+        "type": "UI/UX Design",
+        "titleKey": "spendly_design",
+        "icon": "spendly", 
+        "bioKey": "spendly_bio",
+        "createdAt": "2025-12-28"
     },
     {
         "id": 4,
-        "titleKey": "Mobile App Design",
-        "icon": "mob_des", 
-        "bioKey": "mobile_des_bio"
-    },
-    {
-        "id": 5,
-        "titleKey": "Brand Strategy",
-        "icon": "idea", 
-        "bioKey": "brand_bio"
+        "type": "UI/UX Design",
+        "titleKey": "market_animals_design",
+        "background": "spendly", 
+        "bioKey": "spendly_bio",
+        "createdAt": "2026-01-20"
     }
 ]

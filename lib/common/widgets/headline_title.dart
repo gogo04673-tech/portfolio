@@ -5,17 +5,19 @@ class HeadlineTitle extends StatelessWidget {
   final String gradientText;
   final String? text;
   final bool isMedium;
+  final TextStyle? style;
   const HeadlineTitle({
     super.key,
     required this.gradientText,
     this.text,
     this.isMedium = false,
+    this.style,
   });
 
   @override
   Widget build(BuildContext context) {
     final textStyle = isMedium
-        ? Theme.of(context).textTheme.titleMedium
+        ? style ?? Theme.of(context).textTheme.titleMedium
         : Theme.of(context).textTheme.headlineLarge;
 
     return AppearAnimation(

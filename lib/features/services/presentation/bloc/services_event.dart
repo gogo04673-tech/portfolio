@@ -1,7 +1,7 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:portfolio/features/services/domain/use_cases/get_services.dart';
-import 'package:portfolio/features/services/presentation/bloc/budget_event.dart';
-import 'package:portfolio/features/services/presentation/bloc/budget_state.dart';
+import 'package:portfolio/features/services/presentation/bloc/services_bloc.dart';
+import 'package:portfolio/features/services/presentation/bloc/services_state.dart';
 
 class ServicesBloc extends Bloc<ServicesEvent, ServicesState> {
   final GetServicesUseCase getServices;

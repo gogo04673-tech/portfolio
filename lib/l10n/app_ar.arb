@@ -176,5 +176,20 @@
     "@brand_str": {},
 
     "brand_str_bio": "تطوير استراتيجيات واضحة للعلامة التجارية تتماشى مع الرؤية والقيم والجمهور المستهدف. بناء علامات تجارية متناسقة تتواصل بهدف.",
-    "@brand_str_bio": {}
+    "@brand_str_bio": {},
+
+    "spendly": "Spendly",
+    "@spendly": {},
+
+    "spendly_design": "spendly_design",
+    "@spendly_design": {},
+
+    "spendly_bio": "",
+    "@spendly_bio": {},
+
+    "market_animals": "Market Animals",
+    "@market_animals": {},
+
+    "market_animals_design": "Market Animals Design",
+    "@market_animals_design": {}
 }

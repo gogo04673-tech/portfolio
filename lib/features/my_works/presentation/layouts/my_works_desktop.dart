@@ -4,15 +4,28 @@ import 'package:portfolio/common/widgets/bio_text.dart';
 import 'package:portfolio/common/widgets/headline_title.dart';
 import 'package:portfolio/core/extensions/spacing_extension.dart';
 import 'package:portfolio/core/extensions/theme_extension.dart';
+import 'package:portfolio/core/responsive/breakpoints.dart';
+import 'package:portfolio/core/service_locator/main_service_locator.dart';
+import 'package:portfolio/features/my_works/domain/entities/work_entity.dart';
+import 'package:portfolio/features/my_works/domain/enum/my_works_enum.dart';
+import 'package:portfolio/features/my_works/presentation/bloc/my_works_bloc.dart';
 import 'package:portfolio/features/my_works/presentation/bloc/my_works_cubit.dart';
+import 'package:portfolio/features/my_works/presentation/bloc/my_works_event.dart';
+import 'package:portfolio/features/my_works/presentation/bloc/my_works_state.dart';
+import 'package:portfolio/features/my_works/presentation/widgets/project_card.dart';
+import 'package:portfolio/features/services/presentation/widgets/wrap_specialties.dart';
+import 'package:skeletonizer/skeletonizer.dart';
 
 class MyWorksDesktop extends StatelessWidget {
   const MyWorksDesktop({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return BlocProvider(
-      create: (_) => MyWorksCubit(),
+    return MultiBlocProvider(
+      providers: [
+        BlocProvider(create: (_) => MyWorksCubit()),
+        BlocProvider(create: (_) => sl<MyWorksBloc>()..add(LoadWorks())),
+      ],
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.center,
         children: [
@@ -28,6 +41,9 @@ class MyWorksDesktop extends StatelessWidget {
 
           context.spacing.xl.h,
           const _OptionBar(),
+
+          context.spacing.xl.h,
+          const ProjectsCards(),
         ],
       ),
     );
@@ -39,23 +55,27 @@ class _OptionBar extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    List<String> options = ['All', 'UI/UX Design', 'Development', 'Marking'];
+    final options = {
+      MyWorksEnum.all: 'All',
+      MyWorksEnum.design: 'UI/UX Design',
+      MyWorksEnum.development: 'Development',
+      MyWorksEnum.marketing: 'Marketing',
+    };
     return Row(
       mainAxisAlignment: MainAxisAlignment.center,
-      crossAxisAlignment: CrossAxisAlignment.center,
-      children: List.generate((options.length), (i) {
-        return BlocBuilder<MyWorksCubit, int>(
-          builder: (context, state) {
+      children: options.entries.map((entry) {
+        return BlocBuilder<MyWorksCubit, MyWorksEnum>(
+          builder: (context, activeFilter) {
             return _Option(
-              title: options[i],
-              isActive: state == i,
+              title: entry.value,
+              isActive: activeFilter == entry.key,
               onPressed: () {
-                context.read<MyWorksCubit>().setMyWork(i);
+                context.read<MyWorksCubit>().setFilter(entry.key);
               },
             );
           },
         );
-      }),
+      }).toList(),
     );
   }
 }
@@ -100,5 +120,61 @@ class _Option extends StatelessWidget {
         ),
       ),
     );
+  }
+}
+
+class ProjectsCards extends StatelessWidget {
+  const ProjectsCards({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return SizedBox(
+      width: Breakpoints.isMobile ? null : 1140,
+      child: BlocBuilder<MyWorksBloc, MyWorksState>(
+        builder: (context, worksState) {
+          if (worksState is WorksLoading) {
+            return Skeletonizer(
+              enabled: true,
+              child: Wrap(
+                spacing: 24,
+                runSpacing: 24,
+                children: List.generate(6, (_) => const CardServiceSkeleton()),
+              ),
+            );
+          }
+
+          if (worksState is WorksLoaded) {
+            return BlocBuilder<MyWorksCubit, MyWorksEnum>(
+              builder: (context, filter) {
+                final filteredWorks = _filterWorks(worksState.works, filter);
+
+                return Wrap(
+                  spacing: 24,
+                  runSpacing: 24,
+                  children: filteredWorks
+                      .map((w) => ProjectCard(work: w))
+                      .toList(),
+                );
+              },
+            );
+          }
+
+          return const SizedBox.shrink();
+        },
+      ),
+    );
+  }
+
+  List<WorkEntity> _filterWorks(List<WorkEntity> works, MyWorksEnum filter) {
+    switch (filter) {
+      case MyWorksEnum.design:
+        return works.where((w) => w.type == 'UI/UX Design').toList();
+      case MyWorksEnum.development:
+        return works.where((w) => w.type == 'Development').toList();
+      case MyWorksEnum.marketing:
+        return works.where((w) => w.type == 'Marketing').toList();
+      case MyWorksEnum.all:
+        return works;
+    }
   }
 }

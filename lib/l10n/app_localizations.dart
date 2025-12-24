@@ -350,7 +350,7 @@ abstract class AppLocalizations {
   /// No description provided for @mobile_dev_bio.
   ///
   /// In en, this message translates to:
-  /// **'Mobile developer specializing in Flutter and cross-platform apps. Delivering clean UI and reliable performance.'**
+  /// **'Mobile developer specializing in Flutter and cross-platform apps.Delivering clean UI and reliable performance.'**
   String get mobile_dev_bio;
 
   /// No description provided for @web_dev.
@@ -362,7 +362,7 @@ abstract class AppLocalizations {
   /// No description provided for @web_dev_bio.
   ///
   /// In en, this message translates to:
-  /// **'Web developer building modern, responsive web applications. Focused on performance, scalability, and clean code.'**
+  /// **'Web developer building modern, responsive web applications.Focused on performance, scalability, and clean code.'**
   String get web_dev_bio;
 
   /// No description provided for @fully_resp.
@@ -374,7 +374,7 @@ abstract class AppLocalizations {
   /// No description provided for @fully_resp_bio.
   ///
   /// In en, this message translates to:
-  /// **'Creating responsive applications for all screen sizes. Focused on usability, flexibility, and scalability.'**
+  /// **'Creating responsive applications for all screen sizes.Focused on usability, flexibility, and scalability.'**
   String get fully_resp_bio;
 
   /// No description provided for @ui_ux.
@@ -386,7 +386,7 @@ abstract class AppLocalizations {
   /// No description provided for @ui_ux_bio.
   ///
   /// In en, this message translates to:
-  /// **'Shaping meaningful digital experiences through design. Focused on users, details, and flow.'**
+  /// **'Shaping meaningful digital experiences through design.Focused on users, details, and flow.'**
   String get ui_ux_bio;
 
   /// No description provided for @resp_design.
@@ -398,7 +398,7 @@ abstract class AppLocalizations {
   /// No description provided for @resp_design_bio.
   ///
   /// In en, this message translates to:
-  /// **'Mobile and Web app designer focused on clean UI and smart UX.  Building experiences users enjoy and understand instantly.'**
+  /// **'Mobile and Web app designer focused on clean UI and smart UX. Building experiences users enjoy and understand instantly.'**
   String get resp_design_bio;
 
   /// No description provided for @brand_str.
@@ -412,6 +412,36 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Developing clear brand strategies that align vision, values, and audience. Building consistent brands that communicate with purpose.'**
   String get brand_str_bio;
+
+  /// No description provided for @spendly.
+  ///
+  /// In en, this message translates to:
+  /// **'Spendly'**
+  String get spendly;
+
+  /// No description provided for @spendly_design.
+  ///
+  /// In en, this message translates to:
+  /// **'spendly_design'**
+  String get spendly_design;
+
+  /// No description provided for @spendly_bio.
+  ///
+  /// In en, this message translates to:
+  /// **''**
+  String get spendly_bio;
+
+  /// No description provided for @market_animals.
+  ///
+  /// In en, this message translates to:
+  /// **'Market Animals'**
+  String get market_animals;
+
+  /// No description provided for @market_animals_design.
+  ///
+  /// In en, this message translates to:
+  /// **'Market Animals Design'**
+  String get market_animals_design;
 }
 
 class _AppLocalizationsDelegate extends LocalizationsDelegate<AppLocalizations> {

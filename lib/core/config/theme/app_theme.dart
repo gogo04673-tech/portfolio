@@ -43,6 +43,7 @@ class AppTheme {
           paragraphColor: Colors.black.withValues(alpha: .2),
           white: Colors.white,
           grey: Colors.grey,
+          white08: const Color(0xFFFFFFFF).withValues(alpha: .08),
         ),
       ],
       iconTheme: IconThemeData(color: colorScheme.primary),

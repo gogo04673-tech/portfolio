@@ -12,25 +12,25 @@
         "bioKey": "web_dev_bio"
     },
     {
-        "id": 2,
+        "id": 3,
         "titleKey": "fully_resp",
         "icon": "responsive", 
         "bioKey": "fully_resp_bio"
     },
     {
-        "id": 3,
+        "id": 4,
         "titleKey": "ui_ux",
         "icon": "design", 
         "bioKey": "ui_ux_bio"
     },
     {
-        "id": 4,
+        "id":5,
         "titleKey": "resp_design",
         "icon": "mob_des", 
         "bioKey": "resp_design_bio"
     },
     {
-        "id": 5,
+        "id": 6,
         "titleKey": "brand_str",
         "icon": "idea", 
         "bioKey": "brand_str_bio"

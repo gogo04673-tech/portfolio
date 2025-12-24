@@ -18,6 +18,11 @@ extension L10nExtension on BuildContext {
       'resp_design_bio': l10n.fully_resp_bio,
       'brand_str': l10n.fully_resp,
       'brand_str_bio': l10n.fully_resp_bio,
+      'spendly': l10n.spendly,
+      'spendly_design': l10n.spendly_design,
+      'spendly_bio': l10n.spendly_bio,
+      "market_animals": l10n.market_animals,
+      "market_animals_design": l10n.market_animals_design,
     };
 
     return map[key] ?? key;

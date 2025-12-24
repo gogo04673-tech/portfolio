@@ -3,8 +3,8 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:skeletonizer/skeletonizer.dart';
 
 import 'package:portfolio/core/responsive/breakpoints.dart';
-import 'package:portfolio/features/services/presentation/bloc/budget_state.dart';
-import 'package:portfolio/features/services/presentation/bloc/budgets_bloc.dart';
+import 'package:portfolio/features/services/presentation/bloc/services_state.dart';
+import 'package:portfolio/features/services/presentation/bloc/services_event.dart';
 import 'package:portfolio/features/services/presentation/widgets/card_service.dart';
 
 class WrapSpecialties extends StatelessWidget {

@@ -170,4 +170,19 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String get brand_str_bio => 'تطوير استراتيجيات واضحة للعلامة التجارية تتماشى مع الرؤية والقيم والجمهور المستهدف. بناء علامات تجارية متناسقة تتواصل بهدف.';
+
+  @override
+  String get spendly => 'Spendly';
+
+  @override
+  String get spendly_design => 'spendly_design';
+
+  @override
+  String get spendly_bio => '';
+
+  @override
+  String get market_animals => 'Market Animals';
+
+  @override
+  String get market_animals_design => 'Market Animals Design';
 }
