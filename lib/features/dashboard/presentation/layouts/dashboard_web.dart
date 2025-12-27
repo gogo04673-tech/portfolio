@@ -6,6 +6,7 @@ import 'package:portfolio/features/home/presentation/pages/home.dart';
 import 'package:portfolio/core/extensions/spacing_extension.dart';
 import 'package:portfolio/features/my_works/presentation/pages/my_works.dart';
 import 'package:portfolio/features/services/presentation/pages/services.dart';
+import 'package:portfolio/features/testimonails/presentation/pages/testimonials_page.dart';
 
 class DashboardWeb extends StatelessWidget {
   const DashboardWeb({super.key});
@@ -26,6 +27,9 @@ class DashboardWeb extends StatelessWidget {
 
         SizedBox(height: context.spacing.xxl64.sp * 2),
         const MyWorksPage(),
+
+        SizedBox(height: context.spacing.xxl64.sp * 2),
+        const TestimonialsPage(),
 
         const SizedBox(height: 1000),
       ],

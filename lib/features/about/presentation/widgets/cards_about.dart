@@ -13,6 +13,7 @@ class CardsAbout extends StatelessWidget {
       child: Wrap(
         spacing: 12,
         runSpacing: 12,
+        alignment: WrapAlignment.center,
         children: AboutInfoMapper.map(context)
             .map(
               (e) => CardAbout(

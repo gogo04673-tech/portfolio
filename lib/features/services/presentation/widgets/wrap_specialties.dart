@@ -20,16 +20,25 @@ class WrapSpecialties extends StatelessWidget {
 
           return Skeletonizer(
             enabled: isLoading,
-            child: Wrap(
-              spacing: 24,
-              runSpacing: 24,
-              children: isLoading
-                  // 🔹 Skeleton placeholders
-                  ? List.generate(6, (_) => const CardServiceSkeleton())
-                  // 🔹 Real data
-                  : state is ServicesLoaded
-                  ? state.services.map((s) => CardService(s)).toList()
-                  : [],
+            child: SingleChildScrollView(
+              scrollDirection: Breakpoints.isMobile
+                  ? Axis.horizontal
+                  : Axis.vertical,
+              physics: Breakpoints.isMobile
+                  ? null
+                  : const NeverScrollableScrollPhysics(),
+              child: Wrap(
+                spacing: 24,
+                runSpacing: 24,
+
+                children: isLoading
+                    // 🔹 Skeleton placeholders
+                    ? List.generate(6, (_) => const CardServiceSkeleton())
+                    // 🔹 Real data
+                    : state is ServicesLoaded
+                    ? state.services.map((s) => CardService(s)).toList()
+                    : [],
+              ),
             ),
           );
         },

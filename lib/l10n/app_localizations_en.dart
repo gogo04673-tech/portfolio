@@ -94,9 +94,6 @@ class AppLocalizationsEn extends AppLocalizations {
   String get home => 'Home';
 
   @override
-  String get testimonials => 'Testimonials';
-
-  @override
   String get project => 'Project';
 
   @override
@@ -175,14 +172,14 @@ class AppLocalizationsEn extends AppLocalizations {
   String get spendly => 'Spendly';
 
   @override
-  String get spendly_design => 'spendly_design';
-
-  @override
   String get spendly_bio => '';
 
   @override
   String get market_animals => 'Market Animals';
 
   @override
-  String get market_animals_design => 'Market Animals Design';
+  String get testimonials => 'Testimonials';
+
+  @override
+  String get testimonialsBio => 'Working with Mohamed was smooth and efficient. He understands responsive design deeply and translates UI designs into pixel-perfect layouts.';
 }

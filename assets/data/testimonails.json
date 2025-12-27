@@ -1,0 +1,16 @@
+[
+    {
+        "id": 1,
+        "name": "John Doe",
+        "bio": "Mohamed delivered high-quality work with great attention to detail. The project was completed on time with excellent communication throughout. I would gladly work with him again and highly recommend his services.",
+        "image": "avatar1",
+        "job": "Software Engineer"
+    },
+    {
+        "id": 2,
+        "name": "Sam Lambie",
+        "bio": "Professional, reliable, and easy to work with throughout the project. The final result exceeded expectations in both quality and performance.",
+        "image": "avatar2",
+        "job": "Software Engineer"
+    }
+]

@@ -45,9 +45,3 @@ class AppRoot extends StatelessWidget {
     );
   }
 }
-//               // Localization
-//               // locale: langState.locale,
-//               // supportedLocales: AppLocalizations.supportedLocales,
-//               // localizationsDelegates: AppLocalizations.localizationsDelegates,
-
-//               // Initial page

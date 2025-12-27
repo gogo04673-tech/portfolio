@@ -257,12 +257,6 @@ abstract class AppLocalizations {
   /// **'Home'**
   String get home;
 
-  /// No description provided for @testimonials.
-  ///
-  /// In en, this message translates to:
-  /// **'Testimonials'**
-  String get testimonials;
-
   /// No description provided for @project.
   ///
   /// In en, this message translates to:
@@ -419,12 +413,6 @@ abstract class AppLocalizations {
   /// **'Spendly'**
   String get spendly;
 
-  /// No description provided for @spendly_design.
-  ///
-  /// In en, this message translates to:
-  /// **'spendly_design'**
-  String get spendly_design;
-
   /// No description provided for @spendly_bio.
   ///
   /// In en, this message translates to:
@@ -437,11 +425,17 @@ abstract class AppLocalizations {
   /// **'Market Animals'**
   String get market_animals;
 
-  /// No description provided for @market_animals_design.
+  /// No description provided for @testimonials.
   ///
   /// In en, this message translates to:
-  /// **'Market Animals Design'**
-  String get market_animals_design;
+  /// **'Testimonials'**
+  String get testimonials;
+
+  /// No description provided for @testimonialsBio.
+  ///
+  /// In en, this message translates to:
+  /// **'Working with Mohamed was smooth and efficient. He understands responsive design deeply and translates UI designs into pixel-perfect layouts.'**
+  String get testimonialsBio;
 }
 
 class _AppLocalizationsDelegate extends LocalizationsDelegate<AppLocalizations> {

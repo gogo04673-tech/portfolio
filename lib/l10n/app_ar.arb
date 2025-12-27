@@ -1,195 +1,192 @@
 {
-    "@@locale": "ar",
+  "@@locale": "ar",
 
-    "language": "اللغة",
-    "@language": {},
+  "language": "اللغة",
+  "@language": {},
 
-    "welcome": "مرحبًا",
-    "@welcome": {},
+  "welcome": "مرحبًا",
+  "@welcome": {},
 
-    "login": "تسجيل الدخول",
-    "@login": {},
+  "login": "تسجيل الدخول",
+  "@login": {},
 
-    "total_balance": "الرصيد الإجمالي",
-    "@total_balance": {},
+  "total_balance": "إجمالي الرصيد",
+  "@total_balance": {},
 
-    "settings": "الإعدادات",
-    "@settings": {},
+  "settings": "الإعدادات",
+  "@settings": {},
 
-    "currency": "العملة",
-    "@currency": {},
+  "currency": "العملة",
+  "@currency": {},
 
-    "security": "الأمان",
-    "@security": {},
+  "security": "الأمان",
+  "@security": {},
 
-    "notification": "الإشعارات",
-    "@notification": {},
+  "notification": "الإشعارات",
+  "@notification": {},
 
-    "about": "حول",
-    "@about": {},
+  "about": "حول",
+  "@about": {},
 
-    "me": "أنا",
-    "@me": {},
+  "me": "أنا",
+  "@me": {},
 
-    "help": "مساعدة",
-    "@help": {},
+  "help": "مساعدة",
+  "@help": {},
 
-    "theme": "المظهر",
-    "@theme": {},
+  "theme": "المظهر",
+  "@theme": {},
 
-    "light": "فاتح",
-    "@light": {},
+  "light": "فاتح",
+  "@light": {},
 
-    "dark": "داكن",
-    "@dark": {},
+  "dark": "داكن",
+  "@dark": {},
 
-    "system": "النظام",
-    "@system": {},
+  "system": "النظام",
+  "@system": {},
 
-    "creative": "إبداعي",
-    "@creative": {},
+  "creative": "إبداعي",
+  "@creative": {},
 
-    "designAndDeveloper": "مصمم\nومطوّر",
-    "@designAndDeveloper": {
-        "description": "عنوان الصفحة الرئيسية"
-    },
+  "designAndDeveloper": "مصمم\nومطور",
+  "@designAndDeveloper": {
+    "description": "عنوان الصفحة الرئيسية"
+  },
 
-    "hiImName": "مرحبًا، أنا {name}",
-    "@hiImName": {
-        "placeholders": {
-        "name": {
-            "type": "String"
-        }
-        }
-    },
+  "hiImName": "مرحبًا، أنا {name}",
+  "@hiImName": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
 
-    "helloIm": "مرحبًا، أنا",
-    "@helloIm": {},
+  "helloIm": "مرحبًا، أنا",
+  "@helloIm": {},
 
-    "basedOnCountry": "مقيم في {country}",
-    "@basedOnCountry": {
-        "placeholders": {
-        "country": {
-            "type": "String"
-        }
-        }
-    },
+  "basedOnCountry": "مقيم في {country}",
+  "@basedOnCountry": {
+    "placeholders": {
+      "country": {
+        "type": "String"
+      }
+    }
+  },
 
-    "bio": "أبني حلولًا تحل مشاكل حقيقية، وأطوّر تطبيقات مؤثرة، وأساعد الأفراد والشركات على النجاح.",
-    "@bio": {
-        "description": "السيرة الذاتية الرئيسية في التطبيق"
-    },
+  "bio": "أبني حلولًا تحل مشاكل حقيقية، وأطوّر تطبيقات مؤثرة، وأساعد الأفراد والشركات على النجاح.",
+  "@bio": {
+    "description": "النص التعريفي الرئيسي في التطبيق"
+  },
 
-    "contactMe": "تواصل معي",
-    "@contactMe": {},
+  "contactMe": "تواصل معي",
+  "@contactMe": {},
 
-    "portfolio": "أعمالي",
-    "@portfolio": {},
+  "portfolio": "الأعمال",
+  "@portfolio": {},
 
-    "portfolioShowcase": "عرض الأعمال",
-    "@portfolioShowcase": {},
+  "portfolioShowcase": "عرض الأعمال",
+  "@portfolioShowcase": {},
 
-    "portfolioBio": "إذا كنت مهتمًا بالعمل معًا، أو لديك مشروع في ذهنك، أو ترغب فقط في التواصل، لا تتردد في التواصل عبر النموذج الموجود على اليمين أو من خلال معلومات الاتصال المتاحة.",
-    "@portfolioBio": {},
+  "portfolioBio": "إذا كنت مهتمًا بالعمل معًا، أو لديك مشروع في ذهنك، أو ترغب فقط في التواصل، لا تتردد في مراسلتي عبر النموذج أو من خلال معلومات التواصل المتاحة.",
+  "@portfolioBio": {},
 
-    "aboutBio": "أبني حلولًا تحل مشاكل حقيقية وأطوّر تطبيقات مؤثرة للأفراد والشركات. مطوّر Flutter مع خبرة في الخلفية باستخدام Node.js ومنصات سحابية مثل Firebase وSupabase، أقدّم حلولًا متكاملة مع تصميم UI/UX قوي مبني على Figma. أركز على تطبيقات نظيفة، قابلة للتوسّع، وسهلة الاستخدام تحقق قيمة حقيقية وتأثيرًا طويل المدى.",
-    "@aboutBio": {
-        "description": "قسم نبذة عني"
-    },
+  "aboutBio": "أبني حلولًا تحل مشاكل حقيقية وأطوّر تطبيقات مؤثرة للأفراد والشركات. مطور Flutter بخبرة في الـ Backend باستخدام Node.js ومنصات السحابة مثل Firebase و Supabase، أقدّم حلولًا متكاملة من البداية إلى النهاية مع تركيز قوي على UI/UX اعتمادًا على Figma. أركز على تطبيقات نظيفة، قابلة للتوسع، وسهلة الاستخدام تصنع قيمة حقيقية وأثرًا طويل المدى.",
+  "@aboutBio": {
+    "description": "قسم نبذة عني"
+  },
 
-    "home": "الرئيسية",
-    "@home": {},
+  "home": "الرئيسية",
+  "@home": {},
 
-    "testimonials": "آراء العملاء",
-    "@testimonials": {},
+  "project": "مشروع",
+  "@project": {},
 
-    "project": "مشروع",
-    "@project": {},
+  "projects": "المشاريع",
+  "@projects": {},
 
-    "projects": "المشاريع",
-    "@projects": {},
+  "techDev": "التطوير التقني",
+  "@techDev": {},
 
-    "techDev": "التطوير التقني",
-    "@techDev": {},
+  "uiUxDesign": "تصميم UI/UX",
+  "@uiUxDesign": {},
 
-    "uiUxDesign": "تصميم UI/UX",
-    "@uiUxDesign": {},
+  "langDev": "DART • FLUTTER • NODE • PYTHON • HTML • CSS • NPM • BLOC • CLEAN CODE • RESPONSIVE • PERFORMANCE • JAVASCRIPT • UI/UX • GRAPHIC DESIGN • PROBLEM SOLVING • GITHUB • TEAMWORK •",
+  "@langDev": {},
 
-    "langDev": "DART • FLUTTER • NODE • PYTHON • HTML • CSS • NPM • BLOC • CLEAN CODE • RESPONSIVE • PERFORMANCE • JAVASCRIPT • UI/UX • GRAPHIC DESIGN • PROBLEM SOLVING • GITHUB • TEAMWORK •",
-    "@langDev": {},
+  "totalProjects": "إجمالي المشاريع",
+  "@totalProjects": {},
 
-    "totalProjects": "إجمالي المشاريع",
-    "@totalProjects": {},
+  "totalProjectsBio": "صناعة حلول لها قيمة",
+  "@totalProjectsBio": {},
 
-    "totalProjectsBio": "إنشاء حلول تصنع فرقًا",
-    "@totalProjectsBio": {},
+  "certificates": "الشهادات",
+  "@certificates": {},
 
-    "certificates": "الشهادات",
-    "@certificates": {},
+  "certificatesBio": "إتقان المهارات، وتحقيق الإنجازات",
+  "@certificatesBio": {},
 
-    "certificatesBio": "إتقان المهارات وتحقيق التميز",
-    "@certificatesBio": {},
+  "yearsOfExperience": "سنوات الخبرة",
+  "@yearsOfExperience": {},
 
-    "yearsOfExperience": "سنوات الخبرة",
-    "@yearsOfExperience": {},
+  "yearsBio": "تحويل الأفكار إلى تأثير",
+  "@yearsBio": {},
 
-    "yearsBio": "تحويل الأفكار إلى أثر",
-    "@yearsBio": {},
+  "services": "الخدمات",
+  "@services": {},
 
-    "services": "الخدمات",
-    "@services": {},
+  "service": "الخدمة",
+  "@service": {},
 
-    "service": "الخدمة",
-    "@service": {},
+  "mobile_dev": "تطوير تطبيقات الموبايل",
+  "@mobile_dev": {},
 
-    "mobile_dev": "تطوير تطبيقات الموبايل",
-    "@mobile_dev": {},
+  "mobile_dev_bio": "مطور تطبيقات موبايل متخصص في Flutter والتطبيقات متعددة المنصات. أقدّم واجهات نظيفة وأداءً موثوقًا.",
+  "@mobile_dev_bio": {},
 
-    "mobile_dev_bio": "مطوّر تطبيقات موبايل متخصص في Flutter والتطبيقات متعددة المنصات.\nتقديم واجهات نظيفة وأداء موثوق.",
-    "@mobile_dev_bio": {},
+  "web_dev": "تطوير الويب",
+  "@web_dev": {},
 
-    "web_dev": "تطوير الويب",
-    "@web_dev": {},
+  "web_dev_bio": "مطور ويب أبني تطبيقات ويب حديثة ومتجاوبة. أركز على الأداء، القابلية للتوسع، والكود النظيف.",
+  "@web_dev_bio": {},
 
-    "web_dev_bio": "مطوّر ويب يقوم ببناء تطبيقات ويب حديثة ومتجاوبة.\nالتركيز على الأداء، القابلية للتوسّع، ونظافة الكود.",
-    "@web_dev_bio": {},
+  "fully_resp": "تطبيقات متجاوبة بالكامل",
+  "@fully_resp": {},
 
-    "fully_resp": "تطبيقات متجاوبة بالكامل",
-    "@fully_resp": {},
+  "fully_resp_bio": "إنشاء تطبيقات متجاوبة تناسب جميع أحجام الشاشات. مع تركيز على سهولة الاستخدام، المرونة، وقابلية التوسع.",
+  "@fully_resp_bio": {},
 
-    "fully_resp_bio": "إنشاء تطبيقات متجاوبة لجميع أحجام الشاشات.\nالتركيز على سهولة الاستخدام، المرونة، والقابلية للتوسّع.",
-    "@fully_resp_bio": {},
+  "ui_ux": "تصميم UI/UX",
+  "@ui_ux": {},
 
-    "ui_ux": "تصميم UI/UX",
-    "@ui_ux": {},
+  "ui_ux_bio": "صناعة تجارب رقمية ذات معنى من خلال التصميم. التركيز على المستخدم، التفاصيل، وسلاسة التجربة.",
+  "@ui_ux_bio": {},
 
-    "ui_ux_bio": "تصميم تجارب رقمية ذات معنى.\nالتركيز على المستخدم، التفاصيل، وسلاسة الاستخدام.",
-    "@ui_ux_bio": {},
+  "resp_design": "التصميم المتجاوب",
+  "@resp_design": {},
 
-    "resp_design": "التصميم المتجاوب",
-    "@resp_design": {},
+  "resp_design_bio": "مصمم تطبيقات موبايل وويب يركز على واجهات نظيفة وتجربة استخدام ذكية. أبني تجارب يفهمها المستخدم ويستمتع بها فورًا.",
+  "@resp_design_bio": {},
 
-    "resp_design_bio": "مصمم تطبيقات موبايل وويب يركز على واجهات نظيفة وتجربة مستخدم ذكية.\nبناء تجارب يستمتع بها المستخدم ويفهمها فورًا.",
-    "@resp_design_bio": {},
+  "brand_str": "استراتيجية العلامة التجارية",
+  "@brand_str": {},
 
-    "brand_str": "استراتيجية العلامة التجارية",
-    "@brand_str": {},
+  "brand_str_bio": "تطوير استراتيجيات واضحة للعلامات التجارية تربط بين الرؤية والقيم والجمهور. بناء علامات متسقة تتواصل بهدف.",
+  "@brand_str_bio": {},
 
-    "brand_str_bio": "تطوير استراتيجيات واضحة للعلامة التجارية تتماشى مع الرؤية والقيم والجمهور المستهدف. بناء علامات تجارية متناسقة تتواصل بهدف.",
-    "@brand_str_bio": {},
+  "spendly": "سبندلي",
+  "@spendly": {},
 
-    "spendly": "Spendly",
-    "@spendly": {},
+  "spendly_bio": "",
+  "@spendly_bio": {},
 
-    "spendly_design": "spendly_design",
-    "@spendly_design": {},
+  "market_animals": "سوق الحيوانات",
+  "@market_animals": {},
 
-    "spendly_bio": "",
-    "@spendly_bio": {},
+  "testimonials": "آراء العملاء",
+  "@testimonials": {},
 
-    "market_animals": "Market Animals",
-    "@market_animals": {},
-
-    "market_animals_design": "Market Animals Design",
-    "@market_animals_design": {}
+  "testimonialsBio": "العمل مع محمد كان سلسًا وفعالًا. يفهم التصميم المتجاوب بعمق ويحوّل تصاميم الواجهة إلى تخطيطات دقيقة تمامًا.",
+  "@testimonialsBio": {}
 }

@@ -18,4 +18,10 @@ class AppImages {
 
   static const String myPhoto = '$basePath/photo.png';
   static const String aboutImg = '$basePath/hero.png';
+  static const String avatar1 = '$basePath/avatar1.svg';
+  static const String avatar2 = '$basePath/avatar2.svg';
+  static const String avatar3 = '$basePath/avatar3.svg';
+  static const String avatar4 = '$basePath/avatar4.svg';
+  static const String avatar5 = '$basePath/avatar5.svg';
+  static const String avatar6 = '$basePath/avatar6.svg';
 }

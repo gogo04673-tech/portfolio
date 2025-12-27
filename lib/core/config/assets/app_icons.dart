@@ -16,4 +16,7 @@ class AppIcons {
   static const brand = '$basePath/idea.svg';
   static const design = '$basePath/design.svg';
   static const info = '$basePath/info.svg';
+  static const message = '$basePath/message.svg';
+  static const messageBig = '$basePath/messageBig.svg';
+  static const quote = '$basePath/quote.svg';
 }

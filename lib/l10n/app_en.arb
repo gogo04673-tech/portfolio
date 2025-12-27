@@ -100,9 +100,6 @@
     "home": "Home",
     "@home": {},
 
-    "testimonials": "Testimonials",
-    "@testimonials": {},
-
     "project": "Project",
     "@project": {},
 
@@ -181,15 +178,15 @@
     "spendly": "Spendly",
     "@spendly": {},
 
-    "spendly_design": "Spendly Design",
-    "@spendly_design": {},
-
     "spendly_bio": "",
     "@spendly_bio": {},
 
     "market_animals": "Market Animals",
     "@market_animals": {},
 
-    "market_animals_design": "Market Animals Design",
-    "@market_animals_design": {}
+    "testimonials": "Testimonials",
+    "@testimonials": {},
+
+    "testimonialsBio": "Working with Mohamed was smooth and efficient. He understands responsive design deeply and translates UI designs into pixel-perfect layouts.",
+    "@testimonialsBio": {}
 }
